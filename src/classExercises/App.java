@@ -6,10 +6,7 @@ public class App {
 
 	public static void main(String[] args) {
 
-		Person me = new Person();
-		me.setName("");
-		me.setAge(27);
-		me.setLocation("Bradford");
+		Person me = new Person("", 27, "Bradford");
 
 		me.printPerson();
 		me.intro();
